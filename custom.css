@@ -2,13 +2,19 @@
   background: #2356AA;
 }
 
+a {
+  color: #2356AA;
+}
+
 .btn {
   border: 0;
 }
 
 .card {
   margin: 0 auto;
-  border: 2px solid #d3d3d3;
-  border-radius: 2%;
-  padding: 5px;
+  border: 0;
+}
+
+@media screen {
+  
 }
