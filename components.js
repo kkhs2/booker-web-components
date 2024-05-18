@@ -165,11 +165,11 @@ const productCategories = [
     url: 'https://www.yourcoca-cola.co.uk/diet-coke-24-x-330ml/12657929.html'
   },
   {
-    category: 'Monster Energy Drink Ultra',
+    category: 'Monster Energy Drink Ultra Peachy Keen',
     url: 'https://www.yourcoca-cola.co.uk/monster-energy-drink-ultra-12-x-500ml/12657943.html'
   },
   {
-    category: 'Relentless Fruit Punch Energy Drink',
+    category: 'Relentless Fruit Punch',
     url: 'https://www.yourcoca-cola.co.uk/relentless-fruit-punch-energy-drink-12-x-500ml/15355387.html'
   },
   {
@@ -188,64 +188,109 @@ const productCategories = [
 
 const heroBannerCarousel = [
   {
-    url: 'https://static.thcdn.com/images/xlarge/webp/widgets/190-en/49/original-New_Fanta_Desktop-011449.png',
-    alt: 'Fanta'
+    image: 'https://static.thcdn.com/images/xlarge/webp/widgets/190-en/49/original-New_Fanta_Desktop-011449.png',
+    alt: 'Fanta',
+    url: 'https://www.yourcoca-cola.co.uk/brands/fanta.list'
   },
   {
-    url: 'https://static.thcdn.com/images/xlarge/webp/widgets/190-en/09/Coca-cola-banner-1920x700-073909.png',
-    alt: 'Coca Cola'
+    image: 'https://static.thcdn.com/images/xlarge/webp/widgets/190-en/09/Coca-cola-banner-1920x700-073909.png',
+    alt: 'Coca Cola',
+    url: 'https://www.yourcoca-cola.co.uk/brands/coca-cola-original-taste.list'
   },
   {
-    url: 'https://static.thcdn.com/images/xlarge/webp/widgets/190-en/19/original-ABBA_Brand_Page_Banner_1-012219.png',
-    alt: 'Absolut Vodka'
+    image: 'https://static.thcdn.com/images/xlarge/webp/widgets/190-en/19/original-ABBA_Brand_Page_Banner_1-012219.png',
+    alt: 'Absolut Vodka',
+    url: 'https://www.yourcoca-cola.co.uk/brands/absolut-vodka-sprite.list'
   },
   {
-    url: 'https://static.thcdn.com/images/xlarge/webp/widgets/190-en/00/Appletiser-banner-1920x700-080600.png',
-    alt: 'Appletiser'
+    image: 'https://static.thcdn.com/images/xlarge/webp/widgets/190-en/00/Appletiser-banner-1920x700-080600.png',
+    alt: 'Appletiser',
+    url: 'https://www.yourcoca-cola.co.uk/brands/appletiser.list'
   },
   {
-    url: 'https://static.thcdn.com/images/xlarge/webp/widgets/190-en/45/original-Dr_Pepper_Brands_Page_Desktop-091945.png',
-    alt: 'Dr Pepper'
+    image: 'https://static.thcdn.com/images/xlarge/webp/widgets/190-en/45/original-Dr_Pepper_Brands_Page_Desktop-091945.png',
+    alt: 'Dr Pepper',
+    url: 'https://www.yourcoca-cola.co.uk/brands/dr-pepper.list'
   },
   {
-    url: 'https://static.thcdn.com/images/xlarge/webp/widgets/190-en/35/original-Desktop-031535.png',
-    alt: 'Jack Daniels'
+    image: 'https://static.thcdn.com/images/xlarge/webp/widgets/190-en/35/original-Desktop-031535.png',
+    alt: 'Jack Daniels',
+    url: 'https://www.yourcoca-cola.co.uk/brands/jack-daniels-coca-cola.list'
   },
   {
-    url: 'https://static.thcdn.com/images/xlarge/webp/widgets/190-en/00/original-Desktop_%2831%29-025700.png',
-    alt: 'Lilt'
+    image: 'https://static.thcdn.com/images/xlarge/webp/widgets/190-en/00/original-Desktop_%2831%29-025700.png',
+    alt: 'Lilt',
+    url: 'https://www.yourcoca-cola.co.uk/brands/lilt.list'
   },
   {
-    url: 'https://static.thcdn.com/images/xlarge/webp/widgets/190-en/14/original-Sprite_1920x586px-020414.png',
-    alt: 'Sprite' 
+    image: 'https://static.thcdn.com/images/xlarge/webp/widgets/190-en/14/original-Sprite_1920x586px-020414.png',
+    alt: 'Sprite',
+    url: 'https://www.yourcoca-cola.co.uk/brands/sprite.list' 
   }
 ];
 
+const subPageNavigation = [
+  {
+    id: 'home',
+    title: 'Home',
+    text: 'Limited-Time Offer: Place an order worth £60+ and choose a Free Gift OR Free Entry to our Prize Draw for a Chance To Win £250 of account credit, which you can use to buy your favourite drinks from Your Coca-Cola. Offer ends 19/05/24. Gifts available while stocks last.',
+    image: 'https://static.thcdn.com/images/medium/webp/widgets/190-en/17/original-Free_Gift_Mobile-073417.png',
+    color: '#000000'
+  },
+  {
+    id: 'monster',
+    title: 'Monster Energy',
+    text: 'Tear into a can of Monster Energy wherever your journey takes you, the meanest energy drink on the planet. The Monster Energy blend combined with caffeine gives you the energy you need in a smooth easy drinking flavour. Athletes, gamers, musicians, students, road warriors, metal heads, geeks, hipsters, and bikers dig it - you will too. Unleash the Beast!',
+    image: 'https://static.thcdn.com/images/medium/webp/widgets/190-en/14/Monster-header-375x375-113914.png',
+    color: '#121212'
+  },
+  {
+    id: 'cocacola',
+    title: 'Coca Cola',
+    text: 'Coca‑Cola history began in 1886 when Dr. John Pemberton created a distinctive soft drink now known as Coca-Cola Original Taste. Today, you can find Coca-Cola Original Taste in a variety of sizes to suit every lifestyle and occasion.',
+    image: 'https://static.thcdn.com/images/medium/webp/widgets/190-en/29/Coca-cola-header-375x375-090329.png',
+    color: '#C70100'
+  },
+  {
+    id: 'fanta',
+    title: 'Fanta',
+    text: 'Bright, bubbly, instantly refreshing and great tasting. Fanta is made with 100% natural flavours and is caffeine free. Fanta is available in a variety of real fruit flavours.',
+    image: 'https://static.thcdn.com/images/medium/webp/widgets/190-en/58/original-New_Fanta_Mobile-011458.png',
+    color: '#F86C02'
+  }
+]
+
+
+
 class InfoCardA extends HTMLElement {
   template = () => `
-    <div class="card h-100 mx-auto shadow-lg p-3 mb-5 bg-body-tertiary rounded w-50">
-      <img src="${this.img}" alt="${this.alt}" />
-      <div class="card-body">
-        <div class="p-4">
-          <strong>${this.heading}</strong>
-        </div>
-        <div class="p-4">
-          ${this.text} ${this.count}
-        </div>
-        <div class="p-4">
-          ${this.button}
+  <div class="row">
+    <div class="col-sm-12 col-md-8 col-lg-6 mx-auto">
+      <div class="card h-100 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+        <img src="${this.image}" alt="${this.alt}" />
+        <div class="card-body">
+          <div class="p-4">
+            <strong>${this.heading}</strong>
+          </div>
+          <div class="p-4">
+            <p>${this.text} ${this.count}</p>
+          </div>
+          <div class="p-4">
+            <button type="button" class="btn btn-primary booker infoCardABtn">${this.buttonText}</button>
+          </div>
         </div>
       </div>
     </div>
-    `
+  </div>
+  `
 
   constructor() {
     super();
     this.heading = '[TITLE] SEASONAL PROMOTION BANNER';
-    this.img = 'https://www.insidehook.com/wp-content/uploads/2021/07/cokezero-h.jpg?fit=1200%2C800';
+    this.image = 'https://www.insidehook.com/wp-content/uploads/2021/07/cokezero-h.jpg?fit=1200%2C800';
     this.alt = 'Coca Cola Zero Sugar';
     this.text = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam egestas massa sit amet mi rutrum, a hendrerit ante pulvinar. Vivamus id risus a lorem consequat lobortis a id purus. Maecenas ac dui vulputate, posuere arcu ut, aliquet arcu. Fusce mollis lacinia ipsum sed facilisis.';
-    this.button = `<button type="button" class="btn btn-primary booker button" id="shopNow" name="shopNow">Shop Now</button>`;
+    this.buttonText = 'Shop Now';
     this.count = 0;
     this.render();
   }
@@ -254,7 +299,7 @@ class InfoCardA extends HTMLElement {
     this.innerHTML = `
       ${this.template().trim()}
     `;
-    this.querySelector('.button').addEventListener('click', this.shopNowClick);
+    this.querySelector('.infoCardABtn').addEventListener('click', this.shopNowClick);
   }
 
   shopNowClick = () => {
@@ -266,31 +311,35 @@ class InfoCardA extends HTMLElement {
 
 class InfoCardB extends HTMLElement {
   template = () => `
-    <div class="card h-100 mx-auto shadow-lg p-3 mb-5 bg-body-tertiary rounded w-50">
-      <img src="${this.img}" alt="${this.alt}" />
-      <div class="card-body">
-        <div class="p-4">
-          <strong>${this.heading}</strong>
-        </div>
-        <div class="p-4">
-          ${this.text}
-        </div>
-        <div class="p-4">
-          ${this.url}
+  <div class="row">
+    <div class="col-sm-12 col-md-8 col-lg-6 mx-auto">
+      <div class="card h-100 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+        <img src="${this.image}" alt="${this.alt}" class="img-fluid" />
+        <div class="card-body">
+          <div class="p-4">
+            <strong>${this.heading}</strong>
+          </div>
+          <div class="p-4">
+            <p>${this.text}</p>
+          </div>
+          <div class="p-4">
+            <a href="${this.url}" class="text-decoration-none">${this.urlText} <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/></svg></a>
+          </div>
         </div>
       </div>
     </div>
   </div>
-  `
+    `
 
   constructor() {
     super();
     this.heading = '[TITLE]';
-    this.img = 'https://static.thcdn.com/images/medium/webp/widgets/190-en/24/Two_Item_Image_-_Option_2-041524.png';
+    this.image = 'https://static.thcdn.com/images/medium/webp/widgets/190-en/24/Two_Item_Image_-_Option_2-041524.png';
     this.alt = 'JD and Coke';
     this.text = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam egestas massa sit amet mi rutrum, a hendrerit ante pulvinar. Vivamus id risus a lorem consequat lobortis a id purus. Maecenas ac dui vulputate, posuere arcu ut, aliquet arcu. Fusce mollis lacinia ipsum sed facilisis.';
-    this.url = `<a href="#" class="text-decoration-none">Shop Now <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/></svg></a>`;
+    this.url = 'https://www.yourcoca-cola.co.uk/brands/jack-daniels-coca-cola.list';
+    this.urlText = 'Shop now';
     this.render();
   }
 
@@ -304,60 +353,76 @@ class InfoCardB extends HTMLElement {
 
 class ProductCard extends HTMLElement {
   template = () => `
-    <div class="card mx-auto h-100 text-center shadow-lg p-3 mb-5 bg-body-tertiary rounded w-50">
-      <div class="card-title">
-        <p class="fw-bold">${this.product.midascode}</p>
-      </div>
-      <img src=${this.product.image} class="mb-5" />
-      <div class="row mb-3">
-        <p class="fw-bold">${this.product.title}</p>
-      </div>
-      <div class="row mb-3">
-        <div class="col">
-          ${this.product.volume}
+  <div class="row">
+    <div class="col-sm-12 col-md-8 col-lg-6 mx-auto">
+      <div class="card mx-auto h-100 text-center shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+        <div class="card-title">
+          <span class="fw-bold">${this.product.midascode}</span>
         </div>
-        <div class="col">
-          <div class="fw-bold">&pound;${this.product.price}</div>
+        <img src=${this.product.image} class="mb-5" />
+        <div class="row mb-3">
+          <span class="fw-bold">${this.product.title}</span>
         </div>
-      </div>
-      <div class="row mb-3">
-        <div class="col">
-          <a href="#">Add to List</a>
+        <div class="row mb-3">
+          <div class="col">
+            ${this.product.volume}
+          </div>
+          <div class="col">
+            <div class="fw-bold">&pound;${this.product.price}</div>
+          </div>
         </div>
-        <div class="col">
-          <p>RRP: ${this.product.rrp}</p>
+        <div class="row mb-3">
+          <div class="col">
+            <a href="#">Add to List</a>
+          </div>
+          <div class="col">
+            <span>RRP: ${this.product.rrp}</span>
+          </div>
         </div>
-      </div>
-      <div class="row mb-3">
-        <div class="col offset-6">
-          <p>POR: ${this.product.por}%</p>
+        <div class="row mb-3">
+          <div class="col offset-6">
+            <span>POR: ${this.product.por}%</span>
+          </div>
         </div>
-      </div>
-      <div class="d-flex justify-content-center">
-        <button class="btn button minus" name="minus" id="minus">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-circle-fill" viewBox="0 0 16 16">
+        <div class="d-flex justify-content-center">
+          <button class="btn button productCardMinus">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-circle-fill" viewBox="0 0 16 16">
             <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1z"/>
-          </svg>
-        </button>
-        <div class="col-2">
-          <input type="text" class="form-control text-center" value=${this.product.quantity} />
-        </div>
-        <button class="btn button plus" name="plus" id="plus">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle-fill" viewBox="0 0 16 16">
+            </svg>
+          </button>
+          <div class="col-2">
+            <input type="text" class="form-control text-center" value=${this.product.quantity} />
+          </div>
+          <button class="btn button productCardPlus">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle-fill" viewBox="0 0 16 16">
             <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3z"/>
-          </svg>
-        </button>
-      </div>  
-      <div class="p-4">
-        <button type="button" class="btn btn-primary button booker">Shop Now</button>
+            </svg>
+          </button>
+        </div>  
+        <div class="p-4">
+          <button type="button" class="btn btn-primary button booker">Shop Now</button>
+        </div>
       </div>
     </div>
+  </div>
     `;
 
   constructor() {
     super();
-    this.product = productsData[0];
+    this.product = {
+      title: 'Coca-Cola Zero Sugar',
+      volume: '24 x 330ml',
+      image: 'https://static.thcdn.com/images/large/webp//productimg/1600/1600/12657922-9294861134854115.jpg',
+      midascode: 100001,
+      brand: 'coca-cola',
+      price: 13.09,
+      rrp: 1.39,
+      por: 49.7,
+      quantity: 0
+    };
+    
     this.render();
+
   }
 
   render() {
@@ -365,16 +430,16 @@ class ProductCard extends HTMLElement {
       ${this.template().trim()}
     `;
 
-    this.querySelector('.plus').addEventListener('click', this.plusClick);
-    this.querySelector('.minus').addEventListener('click', this.minusClick);
+    this.querySelector('.productCardPlus').addEventListener('click', this.productCardPlusClick);
+    this.querySelector('.productCardMinus').addEventListener('click', this.productCardMinusClick);
   }
   
-  plusClick = () => {
+  productCardPlusClick = () => {
     this.product.quantity++;
     this.render();
   }
 
-  minusClick = () => {
+  productCardMinusClick = () => {
     this.product.quantity > 0 ? this.product.quantity-- : false;
     this.render();
   } 
@@ -386,7 +451,7 @@ class HeroBannerCarousel extends HTMLElement {
     <div class="carousel-inner">
     ${this.heroBannerCarousel.map((val, key) => `
       <div class="carousel-item ${key == 0 ? "active" : ""}">
-        <img src="${val.url}" class="d-block w-100" alt="${val.alt}">
+        <a href="${val.url}"><img src="${val.image}" class="d-block w-100" alt="${val.alt}"></a>
       </div>
       `).join('')}
     </div>   
@@ -414,6 +479,28 @@ class HeroBannerCarousel extends HTMLElement {
   }
 }
 
+
+class Heading extends HTMLElement {
+  template = () => `
+    <h1 class="display-6" style="color: ${this.fontColor}; font-size: ${this.fontSize}">${this.heading}</p>
+  `;
+
+  constructor() {
+    super();
+    this.heading = 'Shop products';
+    this.fontColor = '#d3d3d3';
+    this.fontSize = '48px';
+    this.render();
+  }
+
+  render() {
+    this.innerHTML = `
+      ${this.template().trim()}
+    `;
+  }
+}
+
+
 class ProductCardList extends HTMLElement {
   template = () => `
   <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4">
@@ -421,54 +508,51 @@ class ProductCardList extends HTMLElement {
     <div class="col">
       <div class="card mx-auto h-100 text-center shadow-lg p-3 mb-5 bg-body-tertiary rounded">
         <div class="card-title">
-          <p class="fw-bold">${p.midascode}</p>
+          <span class="fw-bold">${p.midascode}</span>
         </div>
-          <img src=${p.image} class="mb-5" />
-            <div class="row mb-3">
-              <p class="fw-bold">${p.title}</p>
-            </div>
-            <div class="row mb-3">
-              <div class="col">
-                <p>${p.volume}</p>
-              </div>
-              <div class="col">
-                <div class="fw-bold">
-                  <p>&pound;${p.price}</p>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col">
-                <a href="#">Add to List</a>
-              </div>
-              <div class="col">
-                <p>RRP: ${p.rrp}</p>
-              </div>
-            </div>
-            <div class="row mb-3">
-              <div class="col offset-6">
-                <p>POR: ${p.por}%</p>
-              </div>
-            </div>
-            <div class="d-flex justify-content-center">
-              <button class="btn button minus" name="minus" id="${p.midascode}">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-circle-fill" viewBox="0 0 16 16">
-                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1z"/>
-                </svg>
-              </button>
-              <div class="col-3">
-                <input type="text" class="form-control text-center" value=${p.quantity} />
-              </div>
-              <button class="btn button plus" name="plus" id="${p.midascode}">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle-fill" viewBox="0 0 16 16">
-                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3z"/>
-                </svg>
-              </button>
-            </div>
-            <div class="p-4">
-              <button type="button" class="btn btn-primary button booker">Shop Now</button>
-            </div>
+        <img src=${p.image} class="mb-5" />
+        <div class="row mb-3">
+          <span class="fw-bold">${p.title}</span>
+        </div>
+        <div class="row mb-3">
+          <div class="col">
+            <span>${p.volume}</span>
           </div>
+          <div class="col">
+            <span class="fw-bold">&pound;${p.price}</span>
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col">
+            <a href="#">Add to List</a>
+          </div>
+          <div class="col">
+            <span>RRP: ${p.rrp}</span>
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col offset-6">
+            <span>POR: ${p.por}%</span>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <button class="btn button productCardListMinus" id="${p.midascode}">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-circle-fill" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1z"/>
+            </svg>
+          </button>
+          <div class="col-3">
+            <input type="text" class="form-control text-center" value=${p.quantity} />
+          </div>
+          <button class="btn button productCardListPlus" id="${p.midascode}">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle-fill" viewBox="0 0 16 16">
+              <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3z"/>
+            </svg>
+          </button>
+        </div>
+        <div class="p-4">
+          <button type="button" class="btn btn-primary button booker">Shop Now</button>
+        </div>
+      </div>
         </div>
     `).join('')}
   </div>
@@ -484,19 +568,14 @@ class ProductCardList extends HTMLElement {
       ${this.template().trim()}
     `;
 
-    const cardsPlus = this.querySelectorAll('.plus');
-    const cardsMinus = this.querySelectorAll('.minus');
-    for (let i = 0; i < cardsPlus.length; i++) {
-      cardsPlus[i].addEventListener('click', () => { this.plusClick(cardsPlus[i]) });
-    }
+    const plus = this.querySelectorAll('.productCardListPlus');
+    const minus = this.querySelectorAll('.productCardListMinus');
 
-    for (let i = 0; i < cardsMinus.length; i++) {
-      cardsMinus[i].addEventListener('click', () => { this.minusClick(cardsMinus[i]) });
-    }
-
+    [...plus].map(p => p.addEventListener('click', () => { this.productCardListPlusClick(p) }));
+    [...minus].map(m => m.addEventListener('click', () => { this.productCardListMinusClick(m) }));
   }
 
-  plusClick = (card) => {
+  productCardListPlusClick = (card) => {
     this.products.find((value, index) => {
       if (value.midascode == card.id) {
         this.products[index].quantity++;
@@ -505,7 +584,7 @@ class ProductCardList extends HTMLElement {
     this.render();
   }
 
-  minusClick = (card) => {
+  productCardListMinusClick = (card) => {
     this.products.find((value, index) => {
       if (value.midascode == card.id && this.products[index].quantity > 0) {
         this.products[index].quantity--;
@@ -519,10 +598,13 @@ class ProductCardList extends HTMLElement {
 class LinkToShop extends HTMLElement {
   template = () => `
     <div class="row mb-3">
-      <a href="${this.url}" target="_blank"><img src="${this.image}" class="img-fluid" /></a>
+      <a href="${this.url}" target="_blank"><img src="${this.image}" class="img-fluid" alt="${this.alt}" /></a>
     </div>
     <div class="row">
-      ${this.link}
+      <a href="${this.url}">${this.name} <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+        </svg>
+      </a>
     </div>
     `;
   
@@ -532,9 +614,7 @@ class LinkToShop extends HTMLElement {
     this.image = 'https://www.booker.co.uk/-/media/Images/Booker-Supplier-Income/FY25-NP3/NP3-GroceryCatering-Caterer-Unilever.png?iar=0&hash=4989B548FFC2265B10C9840071333582';
     this.name = 'Visit Hellmann\'s Mayonnaise store';
     this.url = 'https://www.hellmanns.com/us/en/products/mayonnaise.html';
-    this.link = `<a href="${this.url}">${this.name} <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
-  </svg></a>`;
+    this.alt = 'Jack Grealish';
     this.render();
   }
 
@@ -547,15 +627,17 @@ class LinkToShop extends HTMLElement {
 
 class ImageCard extends HTMLElement {
   template = () => `
-    <img src="${this.image}" class="img-fluid" />
-    ${this.button}
+    <div>
+      <img src="${this.image}" class="img-fluid" />
+    </div>
+    <a href="${this.url}" class="btn btn-light imageCardBtn">${this.buttonText}</a>
   `;
 
   constructor() {
     super();
     this.url = 'https://www.yourcoca-cola.co.uk/shop.list?pageNumber=1&facetFilters=en_brand_content:Coca-Cola+Original+Taste';
     this.image = 'https://static.thcdn.com/images/medium/webp/widgets/190-en/01/original-cczsbrand-031501.png';
-    this.button = `<a href="${this.url}" class="position-absolute bottom-0 start-50 translate-middle-x btn btn-light">Shop</a>`;
+    this.buttonText = 'Shop';
     this.render();
   }
 
@@ -570,7 +652,7 @@ class ImageCard extends HTMLElement {
 class HeroBannerA extends HTMLElement {
   template = () => `
     <img src="${this.image}" class="img-fluid" />
-    ${this.button}
+    <a class="btn btn-light mt-3 hero-banner-a-button" href="${this.url}">${this.text}</a>
   `;
 
 
@@ -579,7 +661,6 @@ class HeroBannerA extends HTMLElement {
     this.text = 'Shop All Coca Cola products';
     this.url = 'https://www.yourcoca-cola.co.uk/shop.list?pageNumber=1&facetFilters=en_brand_content:Coca-Cola+Original+Taste';
     this.image = 'https://static.thcdn.com/images/xlarge/webp/widgets/190-en/09/Coca-cola-banner-1920x700-073909.png';
-    this.button = `<a class="btn btn-light mt-3 hero-banner-a-button" href="${this.url}">${this.text}</a>`;
     this.render();
   }
 
@@ -593,10 +674,12 @@ class HeroBannerA extends HTMLElement {
 class HeroBannerB extends HTMLElement {
   template = () => `
     <img src="${this.image}" class="img-fluid" />
-    <div class="container bg-white mt-3 p-4 hero-banner-b-form">
-      <h3>Enquiry Form</h3>
+    <div class="container mt-3 p-4 hero-banner-b-form" 
+      style="background: ${this.textBgColor}">
+      <h3>${this.heading}</h3>
       <p>${this.text}</p>
-      ${this.button}
+      <a href="${this.buttonUrl}" class="btn btn-primary" 
+        style="color: ${this.buttonFontColor}; background: ${this.buttonBgColor}">${this.buttonText}</a>
     </div>
   `;
 
@@ -604,7 +687,12 @@ class HeroBannerB extends HTMLElement {
     super();
     this.image = 'https://static.thcdn.com/images/xlarge/webp/widgets/190-en/57/original-Brands_Banner_Desktop_1920_x_586-020057.png';
     this.text = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.';
-    this.button = '<button class="btn btn-primary booker">Enquire here</button>';
+    this.heading = 'Enquiry Form';
+    this.buttonText = 'Enquire here';
+    this.textBgColor = '#ffffff';
+    this.buttonUrl = 'https://www.yourcoca-cola.co.uk/contact-us.list';
+    this.buttonFontColor = '#ffffff';
+    this.buttonBgColor = '#000000';
     this.render();
   }
 
@@ -619,68 +707,68 @@ class HeroBannerB extends HTMLElement {
 class ProductCardListCarousel extends HTMLElement {
   template = () => `
   <div class="row justify-content-center">
-      <div id="ProductCardListCarousel" class="carousel product-card-list-carousel">
+      <div id="ProductCardListCarousel" class="carousel productCardListCarousel">
         <div class="carousel-inner">
-        ${this.products.map((p, key) => 
+        ${this.carouselProducts.map((p, key) => 
           `
-          <div class="carousel-item product-card-list-item ${ (key == 0) ? "active" : "" }">
+          <div class="carousel-item productCardListItem ${ (key == this.carouselActiveKey) ? "active" : "" }">
             <div class="card text-center rounded">
               <div class="card-title">
-                <p class="fw-bold">${p.midascode}</p>
+                <span class="fw-bold">${p.midascode}</span>
               </div>
               <img src=${p.image} class="img-fluid" />
               <div class="row mb-3">
-                <p class="fw-bold">${p.title}</p>
+                <span class="fw-bold">${p.title}</span>
               </div>
               <div class="row mb-3">
                 <div class="col">
-                  ${p.volume}
+                  <span>${p.volume}</span>
                 </div>
                 <div class="col">
-                  <div class="fw-bold">&pound;${p.price}</div>
+                  <span class="fw-bold">&pound;${p.price}</span>
                 </div>
               </div>
-              <div class="row">
+              <div class="row mb-3">
                 <div class="col">
                   <a href="#">Add to List</a>
                 </div>
                 <div class="col">
-                  <p>RRP: ${p.rrp}</p>
+                  <span>RRP: ${p.rrp}</span>
                 </div>
               </div>
               <div class="row mb-3">
                 <div class="col offset-6">
-                  <p>POR: ${p.por}%</p>
+                  <span>POR: ${p.por}%</span>
                 </div>
               </div>
               <div class="d-flex justify-content-center">
-                <button class="btn button productCarouselMinus" name="productCarouselMinus" id="${p.midascode}">
+                <button class="btn button productCarouselMinus" id="productCarousel_${p.midascode}">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-circle-fill" viewBox="0 0 16 16">
                     <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1z"/>
                   </svg>
                 </button>
                 <div class="col-3">
-                  <input type="text" class="form-control text-center" value=${p.quantity} />
+                  <input type="text" class="form-control text-center" id="carouselProduct${p.midascode}" value=${p.quantity} />
                 </div>
-                <button class="btn button productCarouselPlus" name="productCarouselPlus" id="${p.midascode}">
+                <button class="btn button productCarouselPlus" id="productCarousel_${p.midascode}">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle-fill" viewBox="0 0 16 16">
                     <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3z"/>
                   </svg>
                 </button>
               </div>    
               <div class="p-4">
-                <button type="button" class="btn btn-primary button booker">Shop Now</button>
+                <button type="button" class="btn btn-primary booker">Shop Now</button>
               </div>
             </div>
           </div>
           `
           ).join('')}
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#ProductCardListCarousel" data-bs-slide="prev">
+        <button class="carousel-control-prev productCarouselSlide" type="button" data-bs-target="#ProductCardListCarousel" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#ProductCardListCarousel" data-bs-slide="next">
+        <button class="carousel-control-next productCarouselSlide" type="button" data-bs-target="#ProductCardListCarousel" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
@@ -691,6 +779,8 @@ class ProductCardListCarousel extends HTMLElement {
   constructor() {
     super();
     this.products = productsByBrand('coca-cola');
+    this.carouselProducts = (!sessionStorage.getItem('carouselProducts')) ? this.products : JSON.parse(sessionStorage.getItem('carouselProducts'));
+    this.carouselActiveKey = (!sessionStorage.getItem('carouselActiveKey')) ? 0 : sessionStorage.getItem('carouselActiveKey');
     this.render();
   }
 
@@ -699,37 +789,53 @@ class ProductCardListCarousel extends HTMLElement {
       ${this.template().trim()}
     `;
 
-    const cardsPlus = this.querySelectorAll('.productCarouselPlus');
-   
-    const cardsMinus = this.querySelectorAll('.productCarouselMinus');
-    for (let i = 0; i < cardsPlus.length; i++) {
+    const carouselActiveKey = () => {
+      let carousel = document.querySelectorAll('.productCardListItem');
+      [...carousel].map((c, k) => {
+        if (c.classList.contains('active')) {
+          this.carouselActiveKey = k;
+        }
+      });
+    };
+
+    const productCarouselPlusMinus = (card, plusMinus) => {
+      this.carouselProducts.find((product, index) => {
+        if (product.midascode == card.id.split('_')[1]) {
+          if (plusMinus == 'plus') {
+            this.carouselProducts[index].quantity++;
+            document.getElementById('carouselProduct' + '' + product.midascode).value++;
+          } else {
+            this.carouselProducts[index].quantity > 0 ? this.carouselProducts[index].quantity-- : false;
+            document.getElementById('carouselProduct' + '' + product.midascode).value--;
+          }
+          sessionStorage.setItem('carouselProducts', JSON.stringify(this.carouselProducts));
+        }
+      });
+      this.render();
+    }
+
+      let items = document.querySelectorAll('.productCardListCarousel .productCardListItem');     
+      items.forEach((item) => {
+        const minPerSlide = 4;
+        let next = item.nextElementSibling;
+        for (let i = 1; i < minPerSlide; i++) {
+          if (!next) {
+        	  next = items[0];
+      	  }
+          let cloneChild = next.cloneNode(true);
+          item.appendChild(cloneChild.children[0]);
+          next = next.nextElementSibling;
+        }
+      });
+      const cardsPlus = document.querySelectorAll('.productCarouselPlus');
+      const cardsMinus = document.querySelectorAll('.productCarouselMinus');
+      const sliders = document.querySelectorAll('.productCarouselSlide');
+
+      [...cardsPlus].map(p => p.addEventListener('click', () => { productCarouselPlusMinus(p, 'plus') }));
+      [...cardsMinus].map(m => m.addEventListener('click', () => { productCarouselPlusMinus(m, 'minus') }));
+      [...sliders].map(s => s.addEventListener('click', () => { carouselActiveKey() } ));
       
-      cardsPlus[i].addEventListener('click', () => { this.plusClick(cardsPlus[i]) });
-    }
-
-    for (let i = 0; i < cardsMinus.length; i++) {
-      cardsMinus[i].addEventListener('click', () => { this.minusClick(cardsMinus[i]) });
-    }
   }
-
-  plusClick = (card) => {
-    this.products.find((value, index) => {
-      if (value.midascode == card.id) {
-        this.products[index].quantity++;
-      }
-    });
-    this.render();
-  }
-
-  minusClick = (card) => {
-    this.products.find((value, index) => {
-      if (value.midascode == card.id && this.products[index].quantity > 0) {
-        this.products[index].quantity--;
-      }
-    });
-    this.render();
-  } 
-
 }
 
 class ProductCategory extends HTMLElement {
@@ -738,7 +844,7 @@ class ProductCategory extends HTMLElement {
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mx-auto">
       <a class="text-decoration-none" href="${this.url}">  
         <div class="card bg-light text-dark h-100 text-center p-4 fw-bold">
-          ${this.text}
+          <span>${this.text}</span>
         </div>
       </a>
     </div>
@@ -764,10 +870,10 @@ class ProductCategories extends HTMLElement {
   template = () => `
   <div class="row g-2 mt-4">
   ${this.categories.map(c => `
-    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 mx-auto">
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 mx-auto">
       <a class="text-decoration-none" href="${c.url}">
-        <div class="card bg-light text-dark h-100 text-center p-4 fw-bold">
-          <p>${c.category}</p>
+        <div class="card bg-light text-dark text-center h-100 p-4 fw-bold justify-content-center">
+          <span>${c.category}</span>
         </div>
       </a>
     </div> 
@@ -790,46 +896,59 @@ class ProductCategories extends HTMLElement {
 
 
 class SubPageNavigation extends HTMLElement {
-  template = () => `${this.content}`;
+  
+  template = () => `
+  <nav class="navbar navbar-expand-lg bg-white border-bottom border-secondary mb-2">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <li class="nav-item">
+        <a class="nav-link" name="home">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" name="monster">MONSTER</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" name="cocacola">COCA COLA</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" name="fanta">FANTA</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="row" id="subNavigationContent">
+    
+  </div>
+  `;
 
   constructor() {
     super();
-    this.content = `<div class="container">
-    <nav class="navbar navbar-expand-lg bg-white border-bottom border-secondary mb-2">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active text-decoration-underline" href="">MONSTER</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="">COCA COLA</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="">FANTA</a>
-        </li>
-      </ul>
-    </nav>
-    <div class="row">
-      <div class="col-sm-6 bg-light p-4">
-        <span class="align-middle"><h4>Monster Energy</h4>
-        Tear into a can of Monster Energy wherever your journey takes you, the meanest energy drink on the planet.<br>
-        The Monster Energy blend combined with caffeine gives you the energy you need in a smooth easy drinking flavour. Athletes, gamers, musicians, students, road warriors, metal heads, geeks, hipsters, and bikers dig it - you will too. Unleash the Beast!</span>
-      </div>
-      <div class="col-sm-6 bg-black d-flex justify-content-center">
-        <img src="https://static.thcdn.com/images/medium/webp/widgets/190-en/14/Monster-header-375x375-113914.png" class="img-fluid " />
-      </div>
-    </div>
-    </div>`;
-    
+    this.subPageNavigation = subPageNavigation;
     this.render();
+    const pages = this.querySelectorAll('.nav-link');
+    [...pages].map(p => p.addEventListener('click', () => { this.displaySubContent(p.name) }));
+    document.getElementById('#subNavigationContent').innerHTML = this.displaySubContent('home');  
   }
 
   render() {
     this.innerHTML = `
       ${this.template().trim()}
     `;
+  }
+
+  displaySubContent = (name) => {
+    this.subPageNavigation.find((value, index) => {
+      if (value.id == name) {
+        let sub = this.subPageNavigation[index];
+        document.getElementById('subNavigationContent').innerHTML = `
+        <div class="col-sm-12 col-md-6 bg-light p-4">
+            <span class="align-middle"><h4>${sub.title}</h4>
+          ${sub.text}</span>
+        </div>
+        <div class="col-sm-12 col-md-6 d-flex justify-content-center" style="background-color: ${value.color}">
+          <img src="${sub.image}" class="img-fluid" />
+        </div>
+        `;
+      }
+    });
   }
 }
 
@@ -856,14 +975,15 @@ class StandardCopy extends HTMLElement {
 
 class Button extends HTMLElement {
   template = () => `
-    ${this.button}
+    <a href="${this.url}" class="btn btn-primary" style="color: ${this.fontColor}; background: ${this.buttonBgColor}">${this.text}</button>
   `;
-
 
   constructor() {
     super();
     this.text = 'Shop all Coca-Cola products';
-    this.button = '<button type="button" class="btn btn-primary booker">' + this.text + '</button>';
+    this.url = 'https://www.yourcoca-cola.co.uk/shop.list?pageNumber=1&facetFilters=en_brand_content:Coca-Cola+Original+Taste|en_brand_content:Coca-Cola+Zero+Sugar';
+    this.fontColor = '#000000';
+    this.buttonBgColor = '#48a832';
     this.render();
   }
 
@@ -876,12 +996,13 @@ class Button extends HTMLElement {
 
 class HeroImage extends HTMLElement {
   template = () => `
-    <img src="${this.image}" class="img-fluid" />
+    <img src="${this.image}" class="img-fluid" alt="${this.alt}" />
   `;
 
   constructor() {
     super();
     this.image = 'https://static.thcdn.com/images/xlarge/webp/widgets/190-en/19/original-ABBA_Brand_Page_Banner_1-012219.png';
+    this.alt = 'Absolut Vodka';
     this.render();
   }
 
@@ -918,3 +1039,4 @@ customElements.define('custom-button', Button);
 customElements.define('standard-copy', StandardCopy);
 customElements.define('product-category', ProductCategory);
 customElements.define('hero-image', HeroImage);
+customElements.define('custom-heading', Heading);

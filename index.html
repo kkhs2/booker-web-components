@@ -51,7 +51,7 @@
       <p class="display-6 text-center">Hero Banner Carousel</p> 
       <hero-banner-carousel></hero-banner-carousel>
     </div>
-    <div class="container position-relative text-center mb-5">
+    <div class="container text-center mb-5">
       <p class="display-6 text-center">Image Card</p>
       <image-card></image-card>
     </div>
@@ -71,6 +71,10 @@
       <p class="display-6 text-center">Product Category</p> 
       <product-category></product-category>
     </div>
+    <div class="container text-center mb-5">
+      <p class="display-6 text-center">Heading</p> 
+      <custom-heading></custom-heading>
+    </div>
     <div class="container mb-5">
       <p class="display-6 text-center">Product Categories</p> 
       <product-categories></product-categories>
@@ -80,24 +84,5 @@
       <standard-copy></standard-copy>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script>
-      $(window).on('load', function() {
-        let items = document.querySelectorAll('.product-card-list-carousel .product-card-list-item');
-      items.forEach((el) => {
-        const minPerSlide = 4;
-        let next = el.nextElementSibling;
-        for (let i = 1; i <minPerSlide; i++) {
-          if (!next) {
-        	  next = items[0];
-      	  }
-          let cloneChild = next.cloneNode(true);
-          el.appendChild(cloneChild.children[0]);
-          next = next.nextElementSibling;
-        }
-      });
-
-      });
-      
-    </script>
   </body>
 </html>
