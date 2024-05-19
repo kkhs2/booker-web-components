@@ -571,23 +571,15 @@ class ProductCardList extends HTMLElement {
     const plus = this.querySelectorAll('.productCardListPlus');
     const minus = this.querySelectorAll('.productCardListMinus');
 
-    [...plus].map(p => p.addEventListener('click', () => { this.productCardListPlusClick(p) }));
-    [...minus].map(m => m.addEventListener('click', () => { this.productCardListMinusClick(m) }));
+    [...plus].map(p => p.addEventListener('click', () => { this.productCardListPlusMinusClick(p, 'plus') }));
+    [...minus].map(m => m.addEventListener('click', () => { this.productCardListPlusMinusClick(m, 'minus') }));
   }
 
-  productCardListPlusClick = (card) => {
+  productCardListPlusMinusClick = (card, plusMinus) => {
     this.products.find((value, index) => {
       if (value.midascode == card.id) {
-        this.products[index].quantity++;
-      }
-    });
-    this.render();
-  }
-
-  productCardListMinusClick = (card) => {
-    this.products.find((value, index) => {
-      if (value.midascode == card.id && this.products[index].quantity > 0) {
-        this.products[index].quantity--;
+        (plusMinus == 'plus') ? this.products[index].quantity++ :
+        (plusMinus == 'minus' && this.products[index].quantity > 0) ? this.products[index].quantity-- : false;
       }
     });
     this.render();
